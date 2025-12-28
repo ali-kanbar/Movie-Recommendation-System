@@ -43,7 +43,7 @@ The dataset consists of 50 distinct thematic clusters, including:
 
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/your-username/movie-recommendation-system.git](https://github.com/your-username/movie-recommendation-system.git)
+   git clone [https://github.com/your-username/movie-recommendation-system.git](https://github.com/ali-kanbar/Movie-Recommendation-System.git)
    cd movie-recommendation-system
 
 ```
@@ -53,14 +53,6 @@ The dataset consists of 50 distinct thematic clusters, including:
 pip install pandas scikit-learn transformers torch huggingface_hub joblib matplotlib
 
 ```
-
-
-3. **Environment Variables (Optional)**
-If you plan to retrain or upload models, rename `.env.example` to `.env` and add your keys.
-* ⚠️ **Note:** Never upload your actual `.env` file to GitHub!
-
-
-
 ---
 
 ## 🚀 Usage
@@ -100,8 +92,7 @@ print("Model loaded successfully!")
 
 The trained models are hosted on Hugging Face for easy access:
 
-* **TF-IDF Model (Best Performance):** [Link to your HF Repo]
-* **BERT Model (Experimental):** [Link to your HF Repo]
+* **Hugging Face Space:** [Movie Recommendation System on Hugging Face](https://huggingface.co/spaces/ali-kanbar/Movie_Recommendation_System)
 
 ## 🤝 Contributing
 
@@ -112,8 +103,3 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ```
-
-### Next Step for you:
-1. Create the `README.md` file in your folder.
-2. Paste the text above.
-3. **Important:** Replace `your-username/movie-recommender-tfidf` and `[Link to your HF Repo]` with your actual Hugging Face username and repository links once you upload them!
