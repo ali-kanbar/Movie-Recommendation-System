@@ -41,28 +41,43 @@ The dataset consists of 50 distinct thematic clusters, including:
 
 ## 🛠️ Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone [https://github.com/your-username/movie-recommendation-system.git](https://github.com/ali-kanbar/Movie-Recommendation-System.git)
-   cd movie-recommendation-system ```
-   
-2. **Install dependencies**
-   ```bash
-   pip install pandas scikit-learn transformers torch huggingface_hub joblib matplotlib
-```
+To get the project up and running on your local machine, follow these steps:
+
+1.  **Clone the repository**
+    ```bash
+    git clone [https://github.com/ali-kanbar/Movie-Recommendation-System.git](https://github.com/ali-kanbar/Movie-Recommendation-System.git)
+    cd movie-recommendation-system
+    ```
+
+2.  **Set up a virtual environment (Optional but recommended)**
+    ```bash
+    # For Windows
+    python -m venv venv
+    .\venv\Scripts\activate
+
+    # For macOS/Linux
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+
+3.  **Install dependencies**
+    ```bash
+    pip install pandas scikit-learn transformers torch huggingface_hub joblib matplotlib
+    ```
 
 ---
 
 ## 🚀 Usage
 
-### Running the Notebook
+The core recommendation logic is implemented in a Jupyter Notebook.
 
-The core logic is contained within `Movie_Recommendation_System.ipynb`.
+1.  **Launch Jupyter Notebook**
+    ```bash
+    jupyter notebook Movie_Recommendation_System.ipynb
+    ```
 
-```bash
-jupyter notebook Movie_Recommendation_System.ipynb
-
-```
+2.  **Run the System**
+    Once the interface opens in your browser, run the cells sequentially to load the models and generate recommendations.
 
 ### Loading the Model (from Hugging Face)
 
