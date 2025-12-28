@@ -26,11 +26,7 @@ We trained two distinct models on a dataset of 50 thematic movie groups (ranging
 * **Performance:**
     * **AUC:** 0.88
     * **Recall@20:** 79.5%
-
-### 💡 Key Insight
-**Why did the simpler model win?**
-Movie titles function more like **labels** than sentences. TF-IDF excelled because it created strong, direct links between specific tokens (like "Harry Potter" or "Matrix"), whereas BERT attempted to find semantic nuance where direct keyword matching was actually preferred.
-
+      
 ---
 
 ## 📂 Dataset Groups
