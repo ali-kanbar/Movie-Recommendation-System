@@ -48,8 +48,8 @@ The dataset consists of 50 distinct thematic clusters, including:
 2. **Install dependencies**
    ```bash
    pip install pandas scikit-learn transformers torch huggingface_hub joblib matplotlib
-
 ```
+
 ---
 
 ## 🚀 Usage
