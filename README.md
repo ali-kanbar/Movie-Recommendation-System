@@ -44,13 +44,10 @@ The dataset consists of 50 distinct thematic clusters, including:
 1. **Clone the repository**
    ```bash
    git clone [https://github.com/your-username/movie-recommendation-system.git](https://github.com/ali-kanbar/Movie-Recommendation-System.git)
-   cd movie-recommendation-system
-
-```
-
+   cd movie-recommendation-system ```
 2. **Install dependencies**
-```bash
-pip install pandas scikit-learn transformers torch huggingface_hub joblib matplotlib
+   ```bash
+   pip install pandas scikit-learn transformers torch huggingface_hub joblib matplotlib
 
 ```
 ---
@@ -99,7 +96,5 @@ The trained models are hosted on Hugging Face for easy access:
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## 📝 License
-
 [MIT](https://choosealicense.com/licenses/mit/)
 
-```
